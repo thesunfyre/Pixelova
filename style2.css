@@ -1,4 +1,4 @@
-main{ 
+.main-cont{ 
     background: url("pictures/image1.jpg");
     background-size: cover; 
     height: 480px; 
@@ -129,3 +129,18 @@ i.bi{
 i.bi:hover{
     color: #fcb900;
 }
+
+
+@media (min-width:300px) {
+    .main-cont h1{
+      font-size: 50px;
+    }
+  }
+
+
+  @media (max-width:800px) {
+    .main-cont h1{
+      font-size: 25px;
+    }
+  }
+
